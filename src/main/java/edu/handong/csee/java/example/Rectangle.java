@@ -15,7 +15,7 @@ public class Rectangle implements Measurable {
 	public double getPerimeter() {
 		return 2 * (myWidth + myHeight);
 	}
-	
+	 
 	// Implementing methods from Measurable interface
 	public double getArea() {
 		return myWidth * myHeight;
