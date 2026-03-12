@@ -4,10 +4,12 @@ public class ShapeBasics implements ShapeInterface {
 
 	private int offset;
 
+	// Constructors
 	public ShapeBasics() {
 		offset = 0;
 	}
 
+	// Constructors
 	public ShapeBasics(int theOffset) {
 		offset = theOffset;
 	}

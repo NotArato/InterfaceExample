@@ -2,11 +2,13 @@ package edu.handong.csee.java.example.keyboard.characters;
 
 public class TreeDemonstrator {
 
+	// constants for tree dimensions and position
 	public final int INDENT = 5;
 	public static final int TREE_TOP_WIDTH = 21;// must be odd
 	public static final int TREE_BOTTOM_WIDTH = 4;
 	public static final int TREE_BOTTOM_HEIGHT = 4;
 
+	// main method to run the tree demonstration
 	public static void main(String[] args) {
 		
 		TreeDemonstrator demonstrator = new TreeDemonstrator();
@@ -14,6 +16,7 @@ public class TreeDemonstrator {
 				TREE_BOTTOM_HEIGHT);
 	}
 
+	// method to draw the tree using the specified dimensions
 	public void drawTree(int topWidth, int bottomWidth, int bottomHeight)
 	{
 		System.out.println(" Save the Redwoods!");

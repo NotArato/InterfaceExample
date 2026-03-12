@@ -19,12 +19,14 @@ public class Triangle extends ShapeBasics implements TriangleInterface {
 		base = newBase;
 	}
 	
+	// method to draw the triangle at the current offset
 	 public void drawHere()
 	 {
 		 drawTop();
 	     drawBase();
 	 }
 	 
+	 // method to draw the base of the triangle
 	 private void drawBase()
 	 {
 	     skipSpaces(getOffset());
@@ -33,6 +35,7 @@ public class Triangle extends ShapeBasics implements TriangleInterface {
 	     System.out.println();
 	 }
 	 
+	 // method to draw the top of the triangle
 	 private void drawTop() {
 		 int startOfLine = getOffset() + base / 2;
 		 skipSpaces(startOfLine);

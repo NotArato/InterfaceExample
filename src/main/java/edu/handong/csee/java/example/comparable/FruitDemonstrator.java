@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class FruitDemonstrator {
 
+	// Main method to demonstrate sorting of Fruit objects
 	public static void main(String[] args) {
 		Fruit[] fruits = new Fruit[4];
 		fruits[0] = new Fruit("Orange");
