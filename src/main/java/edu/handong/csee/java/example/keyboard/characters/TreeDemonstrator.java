@@ -28,10 +28,12 @@ public class TreeDemonstrator {
 		drawTrunk(treeTrunk);
 	}
 
+	// helper method to draw the tree top
 	private void drawTop(TriangleInterface treeTop) {
 		treeTop.drawAt(1);
 	}
 
+	// helper method to draw the tree trunk
 	private void drawTrunk(RectangleInterface treeTrunk) {
 		treeTrunk.drawHere(); // or treeTrunk.drawAt(0); }
 
